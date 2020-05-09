@@ -1,2 +1,3 @@
 user=_app isPrivApp=true seinfo=platform name=com.dolby.daxappui domain=daxservice_app type=app_data_file levelFrom=user
 user=_app isPrivApp=true seinfo=platform name=com.dolby.daxservice domain=daxservice_app type=app_data_file levelFrom=user
+user=system seinfo=platform name=org.lineageos.settings domain=xiaomiparts_app type=system_app_data_file
