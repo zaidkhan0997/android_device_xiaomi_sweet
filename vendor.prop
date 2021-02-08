@@ -77,7 +77,7 @@ persist.sys.strictmode.disable=true
 
 persist.radio.VT_CAM_INTERFACE=1
 
-persist.rcs.supported=0
+persist.rcs.supported=1
 
 dev.pm.dyn_samplingrate=1
 
