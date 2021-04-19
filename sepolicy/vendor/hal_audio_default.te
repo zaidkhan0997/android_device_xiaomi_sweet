@@ -7,3 +7,8 @@ binder_call(hal_audio_default, hal_dms_default)
 binder_call(hal_audio_default, system_suspend_server)
 allow hal_audio_default sysfs:file { read };
 allow hal_audio_default vendor_diag_device:chr_file { read };
+
+# Audio Socket
+allow hal_audio_default init:unix_stream_socket connectto;
+allow hal_audio_default property_socket:sock_file write;
+allow hal_audio_default audio_socket:sock_file rw_file_perms;
