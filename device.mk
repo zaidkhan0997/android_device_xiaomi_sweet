@@ -13,6 +13,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # ANXCamera
 $(call inherit-product-if-exists, vendor/ANXCamera/config.mk)
 
+# AudioFX
+TARGET_EXCLUDES_AUDIOFX := true
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_configuration.xml \
