@@ -1,2 +1,5 @@
 # Power
 vendor_internal_prop(vendor_power_prop)
+
+# Panel color
+vendor_internal_prop(vendor_panel_prop)
