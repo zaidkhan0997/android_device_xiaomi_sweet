@@ -5,6 +5,12 @@ vendor.powerhal.lpm        u:object_r:vendor_power_prop:s0
 vendor.powerhal.init       u:object_r:vendor_power_prop:s0
 vendor.powerhal.rendering  u:object_r:vendor_power_prop:s0
 
+# Panel
+vendor.panel.color                      u:object_r:vendor_panel_prop:s0
+vendor.panel.display                    u:object_r:vendor_panel_prop:s0
+vendor.panel.touch_vendor               u:object_r:vendor_panel_prop:s0
+vendor.panel.vendor                     u:object_r:vendor_panel_prop:s0
+
 # Xiaomi thermal daemon
 vendor.sys.thermal.                u:object_r:vendor_thermal_normal_prop:s0
 
