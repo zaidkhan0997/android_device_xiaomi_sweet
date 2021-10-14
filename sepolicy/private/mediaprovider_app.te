@@ -1,0 +1,2 @@
+# Talk to the MediaCodec APIs that log media metrics
+allow mediaprovider_app mediametrics_service:service_manager find;
