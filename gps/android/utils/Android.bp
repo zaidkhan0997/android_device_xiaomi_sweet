@@ -34,5 +34,4 @@ cc_library_headers {
 
     name: "liblocbatterylistener_headers",
     export_include_dirs: ["."],
-    vendor_available: true,
 }
