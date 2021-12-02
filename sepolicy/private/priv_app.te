@@ -1,0 +1,1 @@
+allow priv_app vendor_apex_file:dir { search };
