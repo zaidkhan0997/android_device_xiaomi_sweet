@@ -47,6 +47,19 @@ PRODUCT_PACKAGES += \
     libOmxG711Enc \
     libOmxQcelp13Enc
 
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.provider@2.4-impl \
+    android.hardware.camera.provider@2.4-service_64 \
+    libdng_sdk.vendor \
+    libgui_vendor \
+    libxml2 \
+    CameraGo \
+    vendor.qti.hardware.camera.device@1.0.vendor
+
+# Inherit GoogleCamera
+$(call inherit-product-if-exists, vendor/GoogleCameraSweet/Camera.mk)
+
 # Installs gsi keys into ramdisk, to boot a GSI with verified boot.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
@@ -222,7 +235,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
-    android.hardware.camera.provider@2.4-external
+    android.hardware.camera.provider@2.4-external \
+    libmm-qcamera
 
 PRODUCT_PACKAGES += \
     libshim_megvii
