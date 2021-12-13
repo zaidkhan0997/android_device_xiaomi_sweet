@@ -37,8 +37,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     sound_trigger.primary.sm6150 \
-    android.hardware.soundtrigger@2.3-impl \
-    android.hardware.soundtrigger@2.3-service
+    android.hardware.soundtrigger@2.1-impl \
+    android.hardware.soundtrigger@2.2-impl
 
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
