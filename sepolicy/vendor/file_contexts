@@ -11,7 +11,6 @@
 # Files in rootfs
 /bt_firmware(/.*)?       u:object_r:bt_firmware_file:s0
 /dsp(/.*)?               u:object_r:adsprpcd_file:s0
-/vendor/dsp(/.*)?        u:object_r:adsprpcd_file:s0
 /firmware(/.*)?          u:object_r:firmware_file:s0
 /persist(/.*)?           u:object_r:persist_file:s0
 
@@ -25,14 +24,6 @@
 /vendor/bin/mi_thermald                                              u:object_r:mi_thermald_exec:s0
 /data/vendor/thermal(/.*)?                                           u:object_r:thermal_data_file:s0
 
-# Dev socket nodes
-/dev/socket/chre                                u:object_r:chre_socket:s0
-
-# Dev nodes
-/dev/adsprpc-smd                                u:object_r:qdsp_device:s0
-/dev/sdsprpc-smd                                u:object_r:dsp_device:s0
-/dev/adsprpc-smd-secure                         u:object_r:qdsp_device:s0
-
 # Dc Dimming
 /sys/devices/platform/soc/ae00000\.qcom,mdss_mdp/drm/card0/card0-DSI-1/disp_param u:object_r:sysfs_dm:s0
 
@@ -42,9 +33,6 @@
 
 # Battery secret
 /vendor/bin/batterysecret                                         u:object_r:batterysecret_exec:s0
-
-# Context Hub
-/vendor/bin/chre                u:object_r:chre_exec:s0
 
 # Persist subsystem
 /mnt/vendor/persist/subsys(/.*)?                                  u:object_r:persist_subsys_file:s0
