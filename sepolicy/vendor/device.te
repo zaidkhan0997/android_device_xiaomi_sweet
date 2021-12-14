@@ -1,0 +1,2 @@
+type dsp_device, dev_type;
+type qdsp_device, dev_type, mlstrustedobject;

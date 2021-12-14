@@ -6,6 +6,7 @@ type persist_file, file_type;
 
 # socket
 type pps_socket, file_type;
+type chre_socket, file_type;
 
 # sysfs
 type sysfs_kgsl, sysfs_type, fs_type;
