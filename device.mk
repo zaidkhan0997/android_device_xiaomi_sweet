@@ -13,10 +13,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # ANXCamera
 $(call inherit-product-if-exists, vendor/ANXCamera/config.mk)
 
-# APN
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/etc/apns-conf.xml:system/etc/apns-conf.xml
-
 # AudioFX
 TARGET_EXCLUDES_AUDIOFX := true
 
