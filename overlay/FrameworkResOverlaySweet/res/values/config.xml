@@ -517,9 +517,6 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
     vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
-    
-    <!-- FPSInfoService Fps file path -->
-    <string name="config_fpsInfoSysNode" translatable="false">/sys/class/drm/card0/sde-crtc-0/measured_fps</string>
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps" translatable="false" >true</bool>
