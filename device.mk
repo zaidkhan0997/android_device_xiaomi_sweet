@@ -142,7 +142,6 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlaySweet \
     DialerOverlaySweet \
     FrameworkResOverlaySweet \
-    NotchBarKillerSweet \
     SettingsOverlay \
     SettingsLibOverlaySweet \
     SettingsProviderOverlaySweet \
