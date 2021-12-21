@@ -1,0 +1,2 @@
+allow hal_bluetooth_default vendor_bt_data_file:dir { search };
+allow hal_bluetooth_default vendor_diag_device:chr_file { read };

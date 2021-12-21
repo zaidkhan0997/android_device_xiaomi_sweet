@@ -10,3 +10,4 @@ allow hal_sensors_default chre:unix_stream_socket connectto;
 allow hal_sensors_default chre_socket:sock_file write;
 
 dontaudit hal_sensors_default kernel:system module_request;
+allow hal_sensors_default vendor_diag_device:chr_file { read };
