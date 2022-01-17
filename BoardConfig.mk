@@ -170,3 +170,6 @@ LOC_HIDL_VERSION := 4.0
 
 # Media
 TARGET_DISABLED_UBWC := true
+
+# Audio
+USE_SOUND_TRIGGER := false
