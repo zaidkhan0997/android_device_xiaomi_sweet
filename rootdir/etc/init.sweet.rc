@@ -61,6 +61,10 @@ on late-fs
     start vendor.qti.hardware.display.allocator
 
 on post-fs-data
+    # Disable vendor sound trigger hw module
+    mount none /dev/null vendor/lib/hw/sound_trigger.primary.sm6150.so bind
+    mount none /dev/null vendor/lib64/hw/sound_trigger.primary.sm6150.so bind
+
     # EAS
     write /proc/sys/kernel/sched_upmigrate 95
     write /proc/sys/kernel/sched_downmigrate 85
