@@ -320,6 +320,7 @@ aaudio.hw_burst_min_usec=2000
 vendor.audio.usb.disable.sidetone=true
 vendor.audio.volume.headset.gain.depcal=true
 persist.vendor.audio.fluence.voicecomm=true
+persist.vendor.service.bdroid.sibs=false
 vendor.audio.spkr_prot.tx.sampling_rate=48000
 vendor.audio.feature.a2dp_offload.enable=true
 vendor.audio.feature.afe_proxy.enable=true
