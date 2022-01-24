@@ -487,3 +487,4 @@ PRODUCT_PACKAGES += \
     libgui-shim
 
 include vendor/xiaomi/sweet/sweet-vendor.mk
+include vendor/dolby/config.mk
