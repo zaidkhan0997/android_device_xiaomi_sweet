@@ -13,3 +13,51 @@ prebuilt_etc_xml {
     sub_dir: "vintf/manifest",
     soc_specific: true,
 }
+
+prebuilt_etc_xml {
+	name: "android.hardware.neuralnetworks@1.3-service-qti-hta",
+	src: "android.hardware.neuralnetworks@1.3-service-qti-hta.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.neuralnetworks@1.3-service-qti",
+	src: "android.hardware.neuralnetworks@1.3-service-qti.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "android.hardware.wifi.hostapd",
+	src: "android.hardware.wifi.hostapd.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "manifest_android.hardware.drm@1.3-service.widevine",
+	src: "manifest_android.hardware.drm@1.3-service.widevine.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.gnss@4.0-service",
+	src: "vendor.qti.gnss@4.0-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}
+
+prebuilt_etc_xml {
+	name: "vendor.qti.hardware.servicetracker@1.2-service",
+	src: "vendor.qti.hardware.servicetracker@1.2-service.xml",
+	filename_from_src: true,
+	sub_dir: "vintf/manifest",
+	soc_specific: true,
+}

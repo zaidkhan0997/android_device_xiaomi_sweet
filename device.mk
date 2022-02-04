@@ -403,7 +403,13 @@ PRODUCT_PACKAGES += \
 # VINTF
 PRODUCT_PACKAGES += \
     manifest_nfc \
-    manifest_empty
+    manifest_empty \
+    android.hardware.neuralnetworks@1.3-service-qti-hta \
+    android.hardware.neuralnetworks@1.3-service-qti \
+    android.hardware.wifi.hostapd \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    vendor.qti.gnss@4.0-service \
+    vendor.qti.hardware.servicetracker@1.2-service
 
 # Keymaster
 PRODUCT_PACKAGES += \
