@@ -467,11 +467,8 @@ vendor/etc/media_codecs.xml
 vendor/etc/media_profiles.xml
 vendor/etc/mi_us_sweep.wav
 vendor/etc/mi_us_whitenoise.wav
-vendor/etc/mixer_paths_overlay_dynamic.xml
-vendor/etc/mixer_paths_overlay_static.xml
 vendor/etc/mixer_paths_qrd.xml
 vendor/etc/mixer_paths_tavil.xml
-vendor/etc/mixer_paths_wcd9375qrd.xml
 vendor/etc/mixer_paths_wcd9375.xml
 vendor/etc/noise_table_64_64.rgb
 vendor/etc/permissions/android.software.vulkan.deqp.level.xml
