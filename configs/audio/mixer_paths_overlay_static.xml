@@ -25,14 +25,12 @@
     <ctl name="ADC1 Volume" value="6" />
     <ctl name="ADC2 Volume" value="6" />
     <ctl name="ADC3 Volume" value="6" />
-    <ctl name="ADC4 Volume" value="6" />
     <ctl name="PRIM_MI2S_RX SampleRate" value="KHZ_96" />
     <ctl name="PRIM_MI2S_RX Channels" value="Two" />
     <ctl name="PRIM_MI2S_RX Format" value="S24_LE" />
     <ctl name="PRIM_MI2S_TX SampleRate" value="KHZ_96" />
     <ctl name="PRIM_MI2S_TX Channels" value="Two" />
     <ctl name="PRIM_MI2S_TX Format" value="S24_LE" />
-    <ctl name="PRIM_MI2S_RX_VI_FB_MUX" value="ZERO" />
     <ctl name="ADC2_MIXER Switch" value="1" />
     <ctl name="ADC2 MUX" value="INP3" />
 
@@ -536,14 +534,12 @@
     </path>
 
     <path name="voicemmode1-call">
-        <ctl name="VOC_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
 
     </path>
 
     <path name="voicemmode1-call speaker">
-        <ctl name="VOC_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
         <ctl name="aw882xx_rx_switch" value="Enable" />
@@ -557,14 +553,12 @@
     </path>
 
     <path name="voicemmode1-call speaker-2">
-        <ctl name="VOC_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode1" value="1" />
         <ctl name="VoiceMMode1_Tx Mixer TX_CDC_DMA_TX_3_MMode1" value="1" />
         <ctl name="aw882xx_rx_switch" value="Enable" />
     </path>
 
     <path name="voicemmode2-call">
-        <ctl name="VOC_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
     </path>
@@ -575,14 +569,12 @@
     </path>
 
     <path name="voicemmode2-call speaker">
-        <ctl name="VOC_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
         <ctl name="aw882xx_rx_switch" value="Enable" />
     </path>
 
     <path name="voicemmode2-call speaker-2">
-        <ctl name="VOC_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer VoiceMMode2" value="1" />
         <ctl name="VoiceMMode2_Tx Mixer TX_CDC_DMA_TX_3_MMode2" value="1" />
         <ctl name="aw882xx_rx_switch" value="Enable" />
@@ -705,18 +697,14 @@
 
     <path name="compress-voip-call">
         <ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="1" />
-        <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="1" />
     </path>
 
     <path name="compress-voip-call handset">
         <ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="1" />
-        <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="1" />
     </path>
 
     <path name="compress-voip-call speaker">
-        <ctl name="VOIP_EXT_EC MUX" value="PRI_MI2S_RX" />
         <ctl name="PRI_MI2S_RX_Voice Mixer Voip" value="1" />
-        <ctl name="Voip_Tx Mixer TX_CDC_DMA_TX_3_Voip" value="1" />
     </path>
 
     <path name="echo-reference-voip handset">
